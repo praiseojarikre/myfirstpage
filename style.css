@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(171, 244, 171);
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+p{
+   color: red;
+}
+h1{
+    text-decoration: underline;
+    color: yellow;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.diva{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    border: 2px solid red;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+
+@media (max-width:320px) {
+    body{
+        background-color: pink;
+    }
+    h1{
+        text-decoration: none;
+        color: blue;
+        font-size: 155px;
+        
+    }
+}
+@media (min-width:321px) and (max-width:375px) {
+    body{
+        background-color: brown;
+    }
+}
